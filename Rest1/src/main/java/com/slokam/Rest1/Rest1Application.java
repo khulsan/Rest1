@@ -19,7 +19,7 @@ public class Rest1Application {
 	@Bean
 	public RestTemplate restTemplate()
 	{
-		RestTemplate rest = new RestTemplate();
+		RestTemplate rt = new RestTemplate();
 		return rt;
 	}
 
